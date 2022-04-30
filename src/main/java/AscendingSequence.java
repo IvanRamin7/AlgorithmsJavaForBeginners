@@ -1,5 +1,5 @@
 public class AscendingSequence {
-
+    int hren = 0;
     public int[] ascendingSequence(int start, int end, int step) {
         if (step > 0 && start < end) {
             int[] result = new int[end - start + 1];
